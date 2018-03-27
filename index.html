@@ -32,8 +32,11 @@
       opacity: 1
     }
   </style>
-  <script async src="https://epnt.ebay.com/static/epn-smart-tools.js"></script>
+  <script async src="https://www.explorer.pp.stratus.ebay.com/static/epn-smart-tools.js"></script>
   <script>
+    window._epnInternalConfig = { baseURL: 'https://www.explorer.pp.stratus.ebay.com' }
+  </script>
+  <!-- <script>
     function getQueryByName(name, url) {
         if (!url) url = window.location.href;
         name = name.replace(/[\[\]]/g, "\\$&");
@@ -48,7 +51,7 @@
       window._epnInternalConfig = { baseURL: 'https://www.explorer.pp.stratus.ebay.com' }
       console.log('ppe setup.')
     }
-  </script>
+  </script> -->
 </head>
 
 <body>

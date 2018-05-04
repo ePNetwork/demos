@@ -1,0 +1,21 @@
+{
+  "name": "demos",
+  "version": "1.0.0",
+  "description": "Show eBay partner network demo site",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ePNetwork/demos.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ePNetwork/demos/issues"
+  },
+  "homepage": "https://github.com/ePNetwork/demos#readme"
+}

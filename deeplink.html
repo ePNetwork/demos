@@ -114,6 +114,16 @@
             </p>
         </div>
 
+        <div class="w3-container" id="speakers" style="margin-top:75px">
+            <h1 class="w3-xxxlarge w3-text-red">
+                <b>User Agent</b>
+            </h1>
+            <hr style="width:50px;border:5px solid red" class="w3-round">
+            <p>
+                <span id="userAgent"></span>
+            </p>
+        </div>
+
         <!-- Contact -->
         <div class="w3-container" id="contact" style="margin-top:75px">
             <h1 class="w3-xxxlarge w3-text-red">
@@ -152,6 +162,9 @@
             document.getElementById("mySidebar").style.display = "none";
             document.getElementById("myOverlay").style.display = "none";
         }
+
+        var ua = document.getElementById('userAgent');
+        ua.innerHTML = navigator.userAgent;
     </script>
 
 </body>
